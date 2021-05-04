@@ -10,10 +10,13 @@ namespace Laboratorio_5
             TwitchChannel channel = new TwitchChannel();
             Subscriber s1 = new Subscriber(channel);
             Subscriber s2 = new Subscriber(channel);
-
+            Subscriber s3 = new Subscriber(channel);
+           
             channel.Attach(s1);
             channel.Attach(s2);
-            channel.AddNewVideo("Video Warzone");
+            channel.Attach(s3);
+            channel.AddNewStream("Playing Warzone\n");
+            channel.AddNewStream("Playing Fortnite\n");
         }
     }
     

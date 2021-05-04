@@ -14,8 +14,8 @@ namespace Laboratorio_5
         }
         public  void Update()
         {
-            Console.WriteLine("New video posted");
-            Console.WriteLine(this.observable.GetLastVideoTittle());
+            Console.WriteLine("Live ");
+            Console.WriteLine(this.observable.GetLastStreamTittle());
         }
     }
 }
